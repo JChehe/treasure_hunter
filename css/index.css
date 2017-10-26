@@ -8,4 +8,9 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+
+  /* Webkit (Chrome 11+) */
+  background-image: -webkit-radial-gradient(center, circle closest-corner, #FFFFFF 0%, #8689A8 100%);
+  /* W3C Markup, IE10 Release Preview */
+  background-image: radial-gradient(circle closest-corner at center, #FFFFFF 0%, #8689A8 100%);
 }
